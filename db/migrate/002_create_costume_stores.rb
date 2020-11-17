@@ -3,13 +3,13 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
     def change
         create_table :costume_stores do |t|
             t.string :name
-            # t.string :location
-            # t.string :theme
-            # t.boolean :family_friendly
-            # t.float :price
-            # t.string :opening_date
-            # t.string :closing_date
-            # t.string :long_description
+            t.string :location
+            t.string :theme
+            t.boolean :family_friendly
+            t.float :price
+            t.string :opening_date
+            t.string :closing_date
+            t.string :long_description
         end
     end
 
